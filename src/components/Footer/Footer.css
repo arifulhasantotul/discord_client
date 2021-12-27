@@ -1,5 +1,5 @@
 .footer {
-   background: var(--sidebar_bg);
+   background: var(--dark);
    padding: 5rem 4% 2rem 12%;
    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
 }
@@ -15,22 +15,23 @@
 .footer .footer_wrapper .box h3 {
    font-size: 2.5rem;
    padding: 0.7rem 0;
-   color: var(--white);
+   color: var(--blue);
 }
 .footer .footer_wrapper .box p {
    font-size: 1.5rem;
    padding: 0.7rem 0;
    color: #eee;
 }
-.footer .footer_wrapper .box a {
+.footer .footer_wrapper .box li {
    display: block;
    font-size: 1.5rem;
    padding: 0.7rem 0;
    color: #eee;
 }
-.footer .footer_wrapper .box a:hover {
-   color: var(--orange);
+.footer .footer_wrapper .box li:hover {
+   color: var(--light_white);
    text-decoration: underline;
+   transform: translateX(1rem);
 }
 .footer .credit {
    text-align: center;

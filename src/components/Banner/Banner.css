@@ -24,6 +24,10 @@
 .banner .center_div .btn {
    background: var(--dark);
 }
+.banner .center_div .btn:hover {
+   background: var(--light_white);
+   color: var(--blue);
+}
 @media (max-width: 1200px) {
    html {
       font-size: 60%;

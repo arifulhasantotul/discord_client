@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -21,29 +20,29 @@ const Footer = () => {
 
             <article className="box">
                <h3>Branch location</h3>
-               <NavLink to="/">India</NavLink>
-               <NavLink to="/">Bangladesh</NavLink>
-               <NavLink to="/">Japan</NavLink>
-               <NavLink to="/">USA</NavLink>
-               <NavLink to="/">France</NavLink>
+               <li>India</li>
+               <li>Bangladesh</li>
+               <li>Japan</li>
+               <li>USA</li>
+               <li>France</li>
             </article>
 
             <article className="box">
                <h3>Quick links</h3>
-               <NavLink to="/home">Home</NavLink>
-               <NavLink to="/packages">packages</NavLink>
-               <NavLink to="/services">Services</NavLink>
-               <NavLink to="/gallery">Gallery</NavLink>
-               <NavLink to="/">Review</NavLink>
-               <NavLink to="/">Contact</NavLink>
+               <li>Home</li>
+               <li>Packages</li>
+               <li>Services</li>
+               <li>Gallery</li>
+               <li>Review</li>
+               <li>Contact</li>
             </article>
 
             <article className="box">
                <h3>Follow us</h3>
-               <NavLink to="/">Facebook</NavLink>
-               <NavLink to="/">Instagram</NavLink>
-               <NavLink to="/">Twitter</NavLink>
-               <NavLink to="/">Linkedin</NavLink>
+               <li>Facebook</li>
+               <li>Instagram</li>
+               <li>Twitter</li>
+               <li>Linkedin</li>
             </article>
          </div>
          <article>
