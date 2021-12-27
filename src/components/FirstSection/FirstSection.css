@@ -1,0 +1,24 @@
+.first_sec {
+   padding: 10rem 0;
+}
+.first_sec img {
+   padding: 2rem;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.first_sec .right_div {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 1rem;
+   color: var(--dark);
+}
+.first_sec .right_div h1 {
+   font-size: 5rem;
+   padding-bottom: 2rem;
+}
+.first_sec .right_div p {
+   font-size: 2rem;
+}

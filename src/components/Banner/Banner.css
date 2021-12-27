@@ -1,0 +1,52 @@
+.banner {
+   padding-top: 10rem;
+   background: url("../../images/bammer0.svg"), var(--blue);
+   min-height: 50rem;
+}
+.banner img {
+   padding-top: 20rem;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.banner .center_div {
+   text-align: center;
+   color: #fff;
+}
+.banner .center_div h1 {
+   font-size: 5.5rem;
+   padding-bottom: 5rem;
+}
+.banner .center_div p {
+   font-size: 2rem;
+   padding-bottom: 2rem;
+}
+.banner .center_div .btn {
+   background: var(--dark);
+}
+@media (max-width: 1200px) {
+   html {
+      font-size: 60%;
+   }
+}
+@media (max-width: 1024px) {
+   html {
+      font-size: 58%;
+   }
+}
+@media (max-width: 768px) {
+   html {
+      font-size: 55%;
+   }
+   .banner .left_div {
+      display: none;
+   }
+   .banner img {
+      padding-top: 0;
+   }
+}
+@media (max-width: 450px) {
+   html {
+      font-size: 53%;
+   }
+}
