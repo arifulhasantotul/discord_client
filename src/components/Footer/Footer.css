@@ -1,39 +1,43 @@
-.footer {
+.fourth_sec {
    background: var(--dark);
-   padding: 5rem 4% 2rem 12%;
+   padding: 2rem;
    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+   text-align: center;
 }
-.footer .footer_wrapper {
-   display: flex;
-   flex-wrap: wrap;
-   gap: 1.5rem;
-}
-.footer .footer_wrapper .box {
-   padding: 1rem 0;
-   flex: 1 1 25rem;
-}
-.footer .footer_wrapper .box h3 {
+.fourth_sec .first_div h3,
+.fourth_sec .second_div h3,
+.fourth_sec .third_div h3,
+.fourth_sec .four_div h3 {
    font-size: 2.5rem;
    padding: 0.7rem 0;
    color: var(--blue);
 }
-.footer .footer_wrapper .box p {
+.fourth_sec .first_div p,
+.fourth_sec .second_div p,
+.fourth_sec .third_div p,
+.fourth_sec .four_div p {
    font-size: 1.5rem;
    padding: 0.7rem 0;
    color: #eee;
 }
-.footer .footer_wrapper .box li {
+.fourth_sec .first_div li,
+.fourth_sec .second_div li,
+.fourth_sec .third_div li,
+.fourth_sec .four_div li {
    display: block;
    font-size: 1.5rem;
    padding: 0.7rem 0;
    color: #eee;
 }
-.footer .footer_wrapper .box li:hover {
+.fourth_sec .first_div li:hover,
+.fourth_sec .second_div li:hover,
+.fourth_sec .third_div li:hover,
+.fourth_sec .four_div li:hover {
    color: var(--light_white);
    text-decoration: underline;
    transform: translateX(1rem);
 }
-.footer .credit {
+.fourth_sec .credit {
    text-align: center;
    padding: 2rem 1rem;
    margin-top: 1rem;
@@ -42,12 +46,6 @@
    color: #fff;
    border-top: 0.1rem solid var(--top_border);
 }
-.footer .credit span {
-   color: var(--orange);
-}
-@media (max-width: 450px) {
-   .footer_wrapper {
-      padding-left: 3%;
-      text-align: center;
-   }
+.fourth_sec .credit span {
+   color: var(--blue);
 }
